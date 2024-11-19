@@ -3,7 +3,7 @@
 ---
 
 ## Summary of Findings
-This project developed a machine learning framework for classifying RNA-Seq data into three categories: **Healthy, Rheumatoid Arthritis (RA),** and **Systemic Lupus Erythematosus (SLE)**. Among the models tested, the **SGDClassifier with Elastic Net Regularization** emerged as the best-performing approach, achieving an accuracy of 93.30%, with strong recall and precision across all classes. This model also identified significant genes such as **ANP32D, IFI27,** and **MIR378F**, which show promise as potential biomarkers for RA and SLE. These findings highlight the effectiveness of regularized linear models in handling high-dimensional, sparse RNA-Seq data and underline the potential for biomarker discovery in autoimmune diseases.
+In this study, we developed a machine learning pipeline to classify RNA-Seq gene expression data into three categories: **Healthy, Rheumatoid Arthritis (RA),** and **Systemic Lupus Erythematosus (SLE)**. By leveraging a combination of feature alignment, dimensionality reduction, and regularization techniques, the **SGDClassifier with Elastic Net Regularization** chieved the best performance, with an accuracy of 93.30%. This model outperformed advanced non-linear models like XGBoost, demonstrating the utility of regularized linear methods in handling high-dimensional, sparse RNA-Seq data. Significant genes such as **ANP32D, IFI27,** and **MIR378F** were identified as key contributors to disease classification, offering insights into potential biomarkers for RA and SLE. Future work will explore validation of these biomarkers and more advanced techniques for improving classification and interpretation.
 
 ---
 
