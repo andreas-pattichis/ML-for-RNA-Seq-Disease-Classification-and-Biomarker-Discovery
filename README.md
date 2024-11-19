@@ -1,5 +1,8 @@
 # RNA-Seq Data Classification for Disease Prediction
 
+## Summary of Findings
+This project developed a machine learning framework for classifying RNA-Seq data into three categories: **Healthy, Rheumatoid Arthritis (RA),** and **Systemic Lupus Erythematosus (SLE)**. Among the models tested, the **SGDClassifier with Elastic Net Regularization** emerged as the best-performing approach, achieving an accuracy of 93.30%, with strong recall and precision across all classes. This model also identified significant genes such as **ANP32D, IFI27,** and **MIR378F**, which show promise as potential biomarkers for RA and SLE. These findings highlight the effectiveness of regularized linear models in handling high-dimensional, sparse RNA-Seq data and underline the potential for biomarker discovery in autoimmune diseases.
+
 ## Introduction
 
 This project focuses on developing a machine learning model to predict an individual's health status based on RNA-Seq gene expression data. Specifically, we aim to classify whether a person is **healthy**, has **rheumatoid arthritis (RA)**, or has **systemic lupus erythematosus (SLE)**. Additionally, we aim to identify key genes that contribute significantly to each condition, which could serve as potential biomarkers for disease diagnosis and understanding.
