@@ -1,4 +1,4 @@
-# RNA-Seq Data Classification for Disease Prediction
+# Machine Learning for RNA-Seq Disease Classification and Biomarker Discovery
 
 ---
 
