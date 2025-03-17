@@ -1,4 +1,4 @@
-# ML-Based RNA-Seq Classification for Autoimmune Disease Biomarker Discovery
+# ML-Based RNA-Seq Classification for Autoimmune Disease Biomarker Discovery 
 
 ## Executive Summary
 We developed a machine learning pipeline for classifying RNA-Seq gene expression data into three categories: Healthy, Rheumatoid Arthritis (RA), and Systemic Lupus Erythematosus (SLE). Our best-performing model, SGDClassifier with Elastic Net regularization, achieved 93.30% accuracy, outperforming more complex non-linear approaches. Key genes identified as potential biomarkers include ANP32D, IFI27, and MIR378F, offering insights into molecular mechanisms underlying these autoimmune conditions.
